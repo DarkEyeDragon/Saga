@@ -109,7 +109,7 @@ public class VanillaConfiguration {
 		// Helmet:
 		if(helmet != null)
 			if (helmet.getType() == Material.LEATHER_HELMET) reduction = reduction + 0.04;
-			else if (helmet.getType() == Material.GOLD_HELMET) reduction = reduction + 0.08;
+			else if (helmet.getType() == Material.GOLDEN_HELMET) reduction = reduction + 0.08;
 			else if (helmet.getType() == Material.CHAINMAIL_HELMET) reduction = reduction + 0.08;
 			else if (helmet.getType() == Material.IRON_HELMET) reduction = reduction + 0.08;
 			else if (helmet.getType() == Material.DIAMOND_HELMET) reduction = reduction + 0.12;
@@ -117,7 +117,7 @@ public class VanillaConfiguration {
 		// Boots:
 		if(boots != null)
 			if (boots.getType() == Material.LEATHER_BOOTS) reduction = reduction + 0.04;
-			else if (boots.getType() == Material.GOLD_BOOTS) reduction = reduction + 0.04;
+			else if (boots.getType() == Material.GOLDEN_BOOTS) reduction = reduction + 0.04;
 			else if (boots.getType() == Material.CHAINMAIL_BOOTS) reduction = reduction + 0.04;
 			else if (boots.getType() == Material.IRON_BOOTS) reduction = reduction + 0.08;
 			else if (boots.getType() == Material.DIAMOND_BOOTS) reduction = reduction + 0.12;
@@ -125,7 +125,7 @@ public class VanillaConfiguration {
 		// Leggings:
 		if(leggings != null)
 			if (leggings.getType() == Material.LEATHER_LEGGINGS) reduction = reduction + 0.08;
-			else if (leggings.getType() == Material.GOLD_LEGGINGS) reduction = reduction + 0.12;
+			else if (leggings.getType() == Material.GOLDEN_LEGGINGS) reduction = reduction + 0.12;
 			else if (leggings.getType() == Material.CHAINMAIL_LEGGINGS) reduction = reduction + 0.16;
 			else if (leggings.getType() == Material.IRON_LEGGINGS) reduction = reduction + 0.20;
 			else if (leggings.getType() == Material.DIAMOND_LEGGINGS) reduction = reduction + 0.24;
@@ -133,7 +133,7 @@ public class VanillaConfiguration {
 		// Chestplate:
 		if(chestplate != null)
 			if (chestplate.getType() == Material.LEATHER_CHESTPLATE) reduction = reduction + 0.12;
-			else if (chestplate.getType() == Material.GOLD_CHESTPLATE) reduction = reduction + 0.20;
+			else if (chestplate.getType() == Material.GOLDEN_CHESTPLATE) reduction = reduction + 0.20;
 			else if (chestplate.getType() == Material.CHAINMAIL_CHESTPLATE) reduction = reduction + 0.20;
 			else if (chestplate.getType() == Material.IRON_CHESTPLATE) reduction = reduction + 0.24;
 			else if (chestplate.getType() == Material.DIAMOND_CHESTPLATE) reduction = reduction + 0.32;
@@ -387,26 +387,26 @@ public class VanillaConfiguration {
 			case DIAMOND_SWORD: return 7;
 			case IRON_SWORD: return 6;
 			case STONE_SWORD: return 5;
-			case GOLD_SWORD: return 4;
-			case WOOD_SWORD: return 4;
+			case GOLDEN_SWORD: return 4;
+			case WOODEN_SWORD: return 4;
 
 			case DIAMOND_AXE: return 6;
 			case IRON_AXE: return 5;
 			case STONE_AXE: return 4;
-			case GOLD_AXE: return 3;
-			case WOOD_AXE: return 3;
+			case GOLDEN_AXE: return 3;
+			case WOODEN_AXE: return 3;
 
 			case DIAMOND_PICKAXE: return 5;
 			case IRON_PICKAXE: return 4;
 			case STONE_PICKAXE: return 3;
-			case GOLD_PICKAXE: return 2;
-			case WOOD_PICKAXE: return 2;
+			case GOLDEN_PICKAXE: return 2;
+			case WOODEN_PICKAXE: return 2;
 
-			case DIAMOND_SPADE: return 4;
-			case IRON_SPADE: return 3;
-			case STONE_SPADE: return 2;
-			case GOLD_SPADE: return 1;
-			case WOOD_SPADE: return 1;
+			case DIAMOND_SHOVEL: return 4;
+			case IRON_SHOVEL: return 3;
+			case STONE_SHOVEL: return 2;
+			case GOLDEN_SHOVEL: return 1;
+			case WOODEN_SHOVEL: return 1;
 			default: return 1;
 			
 		}
