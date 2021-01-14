@@ -7,20 +7,15 @@ package org.saga.config;
 
 import java.lang.reflect.Type;
 
-import org.bukkit.craftbukkit.libs.com.google.gson.JsonDeserializationContext;
-import org.bukkit.craftbukkit.libs.com.google.gson.JsonDeserializer;
-import org.bukkit.craftbukkit.libs.com.google.gson.JsonElement;
-import org.bukkit.craftbukkit.libs.com.google.gson.JsonObject;
-import org.bukkit.craftbukkit.libs.com.google.gson.JsonParseException;
-import org.bukkit.craftbukkit.libs.com.google.gson.JsonSerializationContext;
-import org.bukkit.craftbukkit.libs.com.google.gson.JsonSerializer;
+
+import com.google.gson.*;
 import org.saga.player.ProficiencyDefinition;
 
 /**
  *
  * @author Cory
  */
-public class ProfessionDeserializer implements  JsonSerializer<ProficiencyDefinition>, JsonDeserializer<ProficiencyDefinition> {
+public class ProfessionDeserializer implements JsonSerializer<ProficiencyDefinition>, JsonDeserializer<ProficiencyDefinition> {
 
 	
        public ProficiencyDefinition deserialize(JsonElement je, Type type, JsonDeserializationContext jdc) throws JsonParseException {

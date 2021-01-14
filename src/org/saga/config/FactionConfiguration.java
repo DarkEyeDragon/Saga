@@ -3,7 +3,7 @@ package org.saga.config;
 import java.io.IOException;
 import java.util.Hashtable;
 
-import org.bukkit.craftbukkit.libs.com.google.gson.JsonParseException;
+import com.google.gson.JsonParseException;
 import org.saga.SagaLogger;
 import org.saga.saveload.Directory;
 import org.saga.saveload.WriterReader;

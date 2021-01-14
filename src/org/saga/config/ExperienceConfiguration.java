@@ -6,7 +6,7 @@ import java.util.Hashtable;
 
 import org.bukkit.Material;
 import org.bukkit.block.Block;
-import org.bukkit.craftbukkit.libs.com.google.gson.JsonParseException;
+import com.google.gson.JsonParseException;
 import org.bukkit.entity.Creature;
 import org.saga.SagaLogger;
 import org.saga.abilities.Ability;

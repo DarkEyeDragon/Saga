@@ -3,7 +3,7 @@ package org.saga.factions;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-import org.bukkit.craftbukkit.libs.com.google.gson.JsonParseException;
+import com.google.gson.JsonParseException;
 import org.saga.Clock;
 import org.saga.Clock.SecondTicker;
 import org.saga.SagaLogger;

@@ -8,7 +8,7 @@ import java.util.Hashtable;
 import java.util.Map.Entry;
 import java.util.Set;
 
-import org.bukkit.craftbukkit.libs.com.google.gson.JsonParseException;
+import com.google.gson.JsonParseException;
 import org.saga.Clock;
 import org.saga.Clock.SecondTicker;
 import org.saga.SagaLogger;

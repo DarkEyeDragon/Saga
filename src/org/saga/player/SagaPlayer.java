@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import org.bukkit.Effect;
 import org.bukkit.Material;
 import org.bukkit.Sound;
-import org.bukkit.craftbukkit.libs.com.google.gson.JsonParseException;
+import com.google.gson.JsonParseException;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.saga.Saga;

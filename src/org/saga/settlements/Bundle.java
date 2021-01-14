@@ -9,7 +9,7 @@ import java.util.HashSet;
 
 import org.bukkit.Chunk;
 import org.bukkit.Material;
-import org.bukkit.craftbukkit.libs.com.google.gson.JsonParseException;
+import com.google.gson.JsonParseException;
 import org.bukkit.entity.Enderman;
 import org.bukkit.event.Event.Result;
 import org.bukkit.event.block.EntityBlockFormEvent;

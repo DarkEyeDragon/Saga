@@ -5,21 +5,16 @@
 
 package org.saga.abilities;
 
+import com.google.gson.*;
+
 import java.lang.reflect.Type;
 
-import org.bukkit.craftbukkit.libs.com.google.gson.JsonDeserializationContext;
-import org.bukkit.craftbukkit.libs.com.google.gson.JsonDeserializer;
-import org.bukkit.craftbukkit.libs.com.google.gson.JsonElement;
-import org.bukkit.craftbukkit.libs.com.google.gson.JsonObject;
-import org.bukkit.craftbukkit.libs.com.google.gson.JsonParseException;
-import org.bukkit.craftbukkit.libs.com.google.gson.JsonSerializationContext;
-import org.bukkit.craftbukkit.libs.com.google.gson.JsonSerializer;
 
 /**
  *
  * @author Cory
  */
-public class AbilityDeserializer implements  JsonSerializer<Ability>, JsonDeserializer<Ability> {
+public class AbilityDeserializer implements JsonSerializer<Ability>, JsonDeserializer<Ability> {
 
        public Ability deserialize(JsonElement je, Type type, JsonDeserializationContext jdc) throws JsonParseException {
 

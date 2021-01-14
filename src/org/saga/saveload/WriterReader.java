@@ -14,8 +14,8 @@ import java.io.OutputStream;
 import java.util.jar.JarFile;
 import java.util.zip.ZipEntry;
 
-import org.bukkit.craftbukkit.libs.com.google.gson.Gson;
-import org.bukkit.craftbukkit.libs.com.google.gson.GsonBuilder;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import org.saga.SagaLogger;
 import org.saga.abilities.Ability;
 import org.saga.buildings.Building;

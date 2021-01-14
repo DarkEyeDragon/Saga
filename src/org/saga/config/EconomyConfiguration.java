@@ -6,7 +6,7 @@ import java.util.Hashtable;
 import java.util.Random;
 
 import org.bukkit.block.Block;
-import org.bukkit.craftbukkit.libs.com.google.gson.JsonParseException;
+import com.google.gson.JsonParseException;
 import org.saga.Clock.DaytimeTicker.Daytime;
 import org.saga.SagaLogger;
 import org.saga.buildings.production.SagaItem;
@@ -557,7 +557,7 @@ public class EconomyConfiguration {
 	 * Returns a random normal distributed value.
 	 * 
 	 * @param value value
-	 * @param spread spread
+	 * @param double spread
 	 * @return random value with normal distribution
 	 */
 	public static Integer nextGaussian(Integer value, Double spreadRelative) {
