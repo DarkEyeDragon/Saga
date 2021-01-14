@@ -345,18 +345,10 @@ public class Saga extends JavaPlugin implements MinuteTicker {
 	 */
 	private void loadAllSagaPlayers() {
 
-		
-		Player[] players = getServer().getOnlinePlayers();
-
-		for (int i = 0; i < players.length; i++) {
-			
-			SagaPlayer sagaPlayer = loadSagaPlayer(players[i].getName());
-			
-			if (sagaPlayer != null) sagaPlayer.setPlayer(players[i]);
-		
+		for (Player player : getServer().getOnlinePlayers()) {
+			SagaPlayer sagaPlayer = loadSagaPlayer(player.getName());
+			if (sagaPlayer != null) sagaPlayer.setPlayer(player);
 		}
-
-		
 	}
 
 	/**
